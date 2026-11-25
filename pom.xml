@@ -49,6 +49,9 @@
     <version.org.wildfly.plugins.wildfly-maven-plugin>5.1.5.Final</version.org.wildfly.plugins.wildfly-maven-plugin>
     <version.org.wildfly.security.testsuite.wildfly-security-testsuite-bom>${project.version}</version.org.wildfly.security.testsuite.wildfly-security-testsuite-bom>
 
+    <!-- Surefire >= 3.6.0 needed for correct XML suite test cound -->
+    <version.surefire>3.6.1</version.surefire>
+
     <maven.repository.protocol>https</maven.repository.protocol>
     <maven.repository.url>${maven.repository.protocol}://repository.jboss.org/nexus/content/groups/public/</maven.repository.url>
   </properties>

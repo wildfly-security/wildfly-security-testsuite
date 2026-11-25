@@ -38,7 +38,7 @@ public class JdbcSecurityRealmTest extends AbstractAuthenticationSuite {
         //  N/A
         // Register a factory for instantiating a security realm instance.
         //  - In integration testing this last step may be register a utility to define the realm in mgmt.
-        register("Map", JdbcSecurityRealmTest::createSecurityRealm,
+        register("JDBC", JdbcSecurityRealmTest::createSecurityRealm,
                 JdbcSecurityRealmTest::realmHttpMechanisms,
                 JdbcSecurityRealmTest::realmSaslMechanisms);
     }
